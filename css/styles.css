@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+            animation: fadeInAnimation ease 2.5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            font-family:"Work Sans", sans-serif;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+@media (min-width: 992px) {
+    .container-fluid {
+    padding: 0px 20px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-fluid {
+    padding: 0px 30px;
+    }
+}
+
+hr {
+    border-color: #000000;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 25px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.thumbnail:hover .overlay {
+  opacity: .25;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 25px;
+}
+
+.carousel {
+    margin-top: 25px;
+}
+
+.copyright {
+    color: #969696;
+    font-size: .75em;
+    text-align: center
+}
+
+a {
+    color: #dd9eac;
+}
+
+a:hover {
+    color: #000000;
+}
+
+ .btn-back {
+  padding: 15px 10px 15px 0px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 0;
+  text-align: left;
+  float:left;
+}
+.btn-back:hover{
+  color: #dd9eac;
+}
+
+.btn-next {
+  padding: 15px 0px 15px 10px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 0;
+  text-align: left;
+  float:right;
+}
+.btn-next:hover{
+  color: #dd9eac;
+}
+
