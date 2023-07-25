@@ -30,6 +30,25 @@ hr {
     border-color: #000000;
 }
 
+h2 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+h5 {
+    font-size:1em;
+}
+h6 {
+    color:#dd9eac;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-left:0px;
+}
+li {
+    list-style: none;
+}
+
 .thumbnail {
   display: block;
   width: 100%;
@@ -60,7 +79,7 @@ hr {
   width: 100%;
   height: auto;
   position: relative;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 .carousel {
@@ -75,6 +94,7 @@ hr {
 
 a {
     color: #dd9eac;
+    text-decoration: none;
 }
 
 a:hover {
